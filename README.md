@@ -1,2 +1,3 @@
 # MacUpdate Menu
- BitBar plugin to display latest MacUpdate releases (macOS)
+
+**BitBar plugin for macOS to display the latest MacUpdate releases**
