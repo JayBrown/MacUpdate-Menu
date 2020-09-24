@@ -15,7 +15,7 @@
 
 # MacUpdate Menu (MUM)
 # BitBar plugin
-# Version: 3.0.0 beta 10 build 8
+# Version: 3.0.0 beta 10 build 9
 # Note: beta number conforms to BitBar's beta number
 # Category: System
 #
@@ -175,7 +175,7 @@ fi
 version="3.0.0" # only for display
 cversion="3.00" # for version comparisons
 betaversion="10" # matches BitBar beta version
-build="8" # build number (this script)
+build="9" # build number (this script)
 defaultv="1" # version number for the default CLI favorites (also change in $defaultclis heredoc)
 if [[ $betaversion != "-" ]] ; then
 	vmisc=" beta $betaversion"
@@ -7583,6 +7583,7 @@ if [[ $1 == "install" ]] ; then
 	fi
 	localdlpath="/tmp/$myname"
 	if curl -k -L -s --connect-timeout 30 --max-time 60 -o "$localdlpath" "$mucomdlurl" &>/dev/null ; then
+		chmod +x "$localdlpath" 2>/dev/null
 		if [[ $("$localdlpath" -t 2>/dev/null) != "$teststring" ]] ; then
 			rm -f "$localdlpath" 2>/dev/null
 			_sysbeep &
