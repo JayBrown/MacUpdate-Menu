@@ -1,0 +1,9 @@
+# List of known command-line utilities supported by MacUpdate
+# excluding MacUpdate Menu defaults: Fink Homebrew MacPorts
+CMake
+Disk ARchive
+Node.js
+OpenSSL
+Perl
+Python
+Rust
