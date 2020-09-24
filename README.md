@@ -8,6 +8,8 @@
 
 You can write comments or report issues in the **[Issues section](https://github.com/JayBrown/MacUpdate-Menu/issues)**. *Please note* that as long as BitBar is only available as a beta version, **MacUpdate Menu** itself will remain in beta status as well.
 
+![grab](https://raw.githubusercontent.com/JayBrown/MacUpdate-Menu/master/img/MUM_screengrab.png)
+
 ## Connections
 If you are using a reverse firewall like Objective Development's **[Little Snitch](https://obdev.at/products/littlesnitch/index.html)** or **[Patrick Wardle](https://github.com/objective-see)**'s freeware **[LuLu](https://github.com/objective-see/LuLu)**, please allow MacUpdate Menu (via BitBar) to use the `cURL` program to remotely connect to the following domains:
 * `corecode.io`
